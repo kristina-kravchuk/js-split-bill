@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="heading">
+    <p class="parOne"></p>
+    <p class="parTwo"></p>
+</div>
+<div id="bigContainer">
+<div class="container">
+    <form>
+        <span><p>Rent <input type="text" id="rent" placeholder="rent spending..." ></p></span>
+
+        <span><p>Gas<input type="text" id="gas" placeholder="gas spending..." ></p></span>
+
+        <span><p>Food <input type="text" id="food" placeholder="food spending..." ></p></span>
+
+        <span><p>People<input type="text" id="people" placeholder="How many people?" ></p></span>
+
+        <button id="extra">Extra</button>
+        
+        <select id="extraSpending">
+            <option selected  value="300" class="activities">Water skiing $300🏄‍♀️</option>
+            <option  value="500" class="activities">Surfing $500🏄‍♀️</option>
+            <option  value="700"  class="activities">Diving $700🤿</option>
+        </select>
+        <button class="calculate">Calculate</button>
+    </form>
+
+
+    <div id="showTotalAmountToPay">
+        <div id="tripPerPerson">
+            <p>Trip</p>
+            <span>$</span>
+            <span id="trip"></span>
+            <span>per person</span>
+        </div>
+        <div id="extraPerPerson">
+            <p>Extra</p>
+            <span>$</span>
+            <span id="extraActivity"></span>
+            <span>per person</span>
+        </div>
+        <div id="totalPerPerson">
+            <p>Total</p>
+            <span>$</span>
+            <span id="total"></span>
+            <span>per person</span>
+        </div>
+</div>
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>

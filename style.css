@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://www.wns.co.za/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+}
+.heading{display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.parOne,.parTwo{
+    font-family: 'Lora', serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FDF6EC;
+}
+
+#bigContainer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(211, 245, 250, 0.6);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 35px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+}
+.museum,.exibition,.surfing,.diving{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+.activities{
+border: none;
+font-family: 'Lora', serif;
+padding: 5px;
+}
+#extraSpending{
+    display: none;
+}
+
+#extra{
+    background-color: #31E1F7;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.calculate{
+    background-color: #FEA5AD;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:10px ;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+  }
+  
+  #tripPerPerson, #extraPerPerson, #totalPerPerson {
+    background-color: rgba(45, 168, 196, 0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
